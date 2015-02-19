@@ -1,18 +1,18 @@
 
 <div class="trialpartWrapper" style="text-align: left;">
-	Здравствуйте! <br> <br>
-Спасибо, что согласились принять участие в нашем эксперименте.  <br> <br>
-Мы попросим вас прослушать предложения на русском языке и оценить степень их грамматической правильности.  <br> <br>
-Вам нужно будет нажать на кнопку "    ►    " и слушать. Если в предложении, на ваш взгляд, допущена ошибка, и оно неприемлемо с точки зрения русского языка, нажмите кнопку "Ошибка!". Нажимайте кнопку сразу же, как только вы услышите ошибку.  <br> <br>
+	Guten Tag! <br> <br>
+I denne undersøkelsen vil du høre noen russiske setninger, og bli bedt om å vurdere hvorvidt de kan aksepteres eller ikke. Dette vil hjelpe oss med å forstå folks preferanser. <br> <br>
 
-В случае, если вы считаете, что предложение соответствует нормам русского языка, не нажимайте ничего, и через 3 секунды вы сможете перейти к следующему предложению. 
+For å høre en setning, må du trykke på "    ►    ". Hvis setningen ikke høres akseptabel ut, trykker du på knappen merket «feil». Prøv å trykk på knappen med en gang du opplever at setningen høres feil ut.  <br> <br>
+
+Hvis du ikke hører noen feil i setningen trenger du ikke trykke på noe; en ny setning vil spilles av i løpet av fire sekunder.
  <br>
-Каждое предложение вы сможете прослушать только один раз.  <br> <br>
+Du får bare høre hver setning én gang. <br> <br>
 
-Весь эксперимент займёт у вас от 15 до 20 минут.
+Hele undersøkelsen vil ikke ta mer enn 15-20 minutter.
 
-Сейчас мы попросим у вас подтвердить, что вы согласны с условиями эксперимента, а затем вас ждёт небольшая тренировка, которая поможет привыкнуть к заданию.
-Наденьте наушники и нажмите кнопку «Дальше».
+Før vi kan gå videre med noen prøve-eksempler, må du bekrefte at du godtar reglene og vilkårene for undersøkelsen. 
+Ta på deg høretelefonene og trykk på "Дальше".
  <br> <br>
 
 	<%= continueButton() %>

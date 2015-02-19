@@ -1,105 +1,103 @@
 <div style="text-align: left;">
 <input type="hidden" name="destination" value="demographics.csv">
 
-Persönliche Daten
+Vennligst svar på følgende spørsmål:
 
 <p>
-Alter<br>
+Hvor gammel er du?<br>
 <input type="text" name="age" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
 
 <p>
 
-Geschlecht
+Kjønn
 	<select name="sex" style="position: absolute; left:15em; margin-top:-2px;">
-		<option value="none">wählen</option>
-		<option value="male">männlich</option>
-		<option value="female">weiblich</option>
+		<option value="none">Velg</option>
+		<option value="male">Mann</option>
+		<option value="female">Kvinne</option>
 	</select>
 	
 
 <p>
-Ausbildung 
+Utdanning
 	<select name="education" style="position: absolute; left:15em; margin-top:-2px;">
-		<option value="none">wählen</option>
-		<option value="srednee">Schule</option>
-		<option value="sred.spec">Berufschule</option>
-		<option value="higher.incomplete">nicht abgeschlossenes Studium</option>
-		<option value="higher">abgeschlossenes Studium</option>
-		<option value="PhD">abgeschlossenes Doktorat</option>
+		<option value="none">Velg</option>
+		<option value="srednee">Videregående</option>
+		<option value="higher">Universitet lavere grad (Bachelor)</option>
+		<option value="PhD">Universitet høyere grad (Master/PhD) </option>
 	</select>
 <p>
 
-Muttersprache <br>
+Hva er morsmålet ditt? <br>
 <input type="text" name="native.lang" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
 
 <p>
 
-Sprechen Sie Fremdsprachen? Welche? Wie gut sind Ihre Sprachkenntnisse? <br>
+Snakker du noen andre språk? Hvis ja, hvilke og hvor godt? <br>
 <input type="text" name="foreign.lang" value="" SIZE="30" MAXLENGTH="200" style="width: 30em;">
 
 <p>
 
-Tätigkeitsbereich (bzw. Studienrichtung)<br>
+Yrke<br>
 <input type="text" name="profession" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
 
 <p>
 
-Sie sind 
+Er du
 	<select name="dominant.hand" style="position: absolute; left:9em; margin-top:-2px;">
-		<option value="none">wählen</option>
-		<option value="right">RechtshändlerIn</option>
-		<option value="left">LinkshänderIn</option>
-		<option value="ambidexter">BeidhänderIn</option>
-		<option value="former.left">umgelernte(r) LinkshänderIn</option>
+		<option value="none">Velg</option>
+		<option value="right">Høyrehendt</option>
+		<option value="left">Venstrehendt</option>
+		<option value="ambidexter">Tvehendig</option>
+		<option value="former.left">Venstrehendt, men bruker høyre hånd</option>
 	</select>
 <p>
 
-In welchem Alter sind Sie nach Deutschland/Österreich/in die Schweiz ausgewandert?<br>
+Hvor gammel var du da du flyttet til Norge?<br>
 <input type="text" name="profession" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
 <p>
 
-Wie viele Jahre haben Sie insgesamt in Deutschland/Österreich/in der Schweiz gelebt?<br>
+Hvor mange år har du bodd i Norge?<br>
 <input type="text" name="profession" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
 <p>
 
-Benutzen Sie die russische Sprache für kommunikative Zwecke? In welchen Situationen und wie oft?
+Snakker du russisk? Hvis ja, i hvilke situasjoner og hvor ofte?
 <br>
 <input type="text" name="profession" value="" SIZE="30" MAXLENGTH="400" style="width: 30em;">
 
 <p>
-Haben Sie irgendwelche Gehörprobleme?
+Har du hørselstap?
 	<select name="hearing" style="position: absolute; left:20em; margin-top:-2px;">
-		<option value="none">wählen</option>
-		<option value="hearing.ok">Nein</option>
+		<option value="none">Velg</option>
+		<option value="hearing.ok">Nei</option>
 		<option value="hearing.bad">Ja</option>
 	</select>
 <p>
 
 
-Womit haben Sie die Aufnahmen gehört?
+Kommer du til å høre på setningene med
 	<select name="audio" style="position: absolute; left:12em; margin-top:-2px;">
-		<option value="none">wählen</option>
-		<option value="headphones">Kopfhörer</option>
-		<option value="speakers">Lautsprecherbox</option>
-		<option value="laptop.speakers">eingebaute Lautsprecher im Notebook</option>
-		<option value="other">etwas anderes</option>
+		<option value="none">Velg</option>
+		<option value="headphones">Høretelefoner</option>
+		<option value="speakers">Høyttalere</option>
+		<option value="laptop.speakers">Laptop-høyttaler</option>
+		<option value="other">Andre</option>
 	</select>
 <p>
 
 
-Wenn während des Experimentes Fragen oder Bemerkungen aufgetaucht sind, teilen Sie uns diese bitte mit.
+Hvis du har spørsmål eller kommentarer angående undersøkelsen er det bare å si ifra.
 <textarea ROWS="6" COLS="30" name="sugg" style="padding: 0px; width: 30em;"></textarea><br>
 
 <p>
 
-Geben Sie bitte Ihre E-Mail-Adresse an, damit wir Ihnen die Forschungsresultate mitteilen können. 
+Vennligst legg igjen din e-postadresse sånn at vi kan svare på kommentarene dine. 
 <input type="text" name="email" value="" SIZE="30" MAXLENGTH="100" style="width: 30em;">
 
 <p>
 
 
 <P style="text-align: right;">
-<input type="button" value="   Senden   " onClick="Experigen.recordResponse(this);">
+<input type="button" value="   Sende   " onClick="Experigen.recordResponse(this);">
 	
 
 </div>

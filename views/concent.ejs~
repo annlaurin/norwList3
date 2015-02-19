@@ -1,12 +1,11 @@
 <div class="trialpartWrapper" style="text-align: left;">
-	Согласие на добровольное участие в исследовании <br> <br>
+	Jeg godtar vilkårene og vil delta i russiskundersøkelsen. <br> <br>
 
-Нажимая кнопку "Дальше", я подтверждаю своё добровольное участие в эксперименте «Разрешение морфологической неоднозначности в русском языке», проводимом НИУ ВШЭ и Гарвардским университетом. Я даю согласие на то, что данные, полученные от меня в ходе исследования, могут быть опубликованы и использованы в научных целях при условии, что моё имя останется в тайне. <br> <br> 
-Я знаю, в чём состоит процедура эксперимента, и что я могу в любое время прекратить участие в эксперименте.<br> <br> 
-Я также подтверждаю, что на момент исследования:<br> <br> 
-1. Не имею нескорректированных проблем со слухом;<br> 
-2. Не принимаю медицинские препараты, влияющие на концентрацию внимания и время реакции;<br> 
-3. Не нахожусь под воздействием алкоголя и иных психотропных веществ.<br> 
+Ved å trykke på «neste» godtar jeg vilkårene og deltar i undersøkelsen om morfologisk tvetydighet i russisk. Dette er et samarbeidsprosjekt mellom Higher school of Economics (Russland) og Harvard University (USA). Jeg godtar at mine svar blir brukt i forskning, og jeg er innforstått med at alle mine personlige opplysninger blir behandlet konfidensielt. <br> <br> 
+Jeg er innforstått med undersøkelsesprosedyren, og vet at jeg kan trekke meg fra undersøkelsen når som helst.<br> <br> 
+Jeg bekrefter med dette at:<br> <br> 
+1. Jeg ikke har hørselsvansker;<br> 
+2. Jeg ikke bruker medisiner som kan påvirke oppmerksomheten eller reaksjonstiden min;<br> 
 
 	<%= continueButton() %>
 </div>
